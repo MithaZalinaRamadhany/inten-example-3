@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.inputWeight.setHint("weight (Lbs)")
-        binding.inputHeight.setHint("height (Inches)")
+        binding.inputWeight.setHint("weight (lbs)")
+        binding.inputHeight.setHint("height (inches)")
         binding.btnSendData.setOnClickListener {
             val intent = Intent(this@MainActivity,
                 SecondActivity::class.java)
