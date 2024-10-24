@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import id.ac.polbeng.mithazalina.intenexample3.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivitySecondBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
